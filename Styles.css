@@ -1,0 +1,122 @@
+
+
+body{
+    
+    background-image: url("download.png");
+    background-attachment: fixed;
+background-size: 100% ;
+    
+}
+
+
+
+.ads{
+    width: 250px;
+    
+color: blue;
+}
+ 
+
+.home{
+    color: lightgreen;
+}
+   
+.heading{
+     color: white;
+    margin-top: 150px;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+   
+}
+
+
+
+
+.bar{
+	
+    margin-top: 3%;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-left: 90px;
+    
+}
+
+.nav-item{
+    padding-left: 50px;
+    
+}
+
+.navbar-brand{
+    padding-right: 150px;
+}
+
+.btn-outline-info{
+    margin-right: 80px;
+    width: 80px;
+    margin-left: 80Px;
+}
+
+
+.f1{
+    padding: 20px;
+margin: 10px;
+
+
+}
+
+.btn{
+    width: 100px;
+    padding-left: 2px;
+
+}
+
+.search{
+    padding-left: 100px;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+table {
+    overflow: hidden;
+    display: inline-block;
+   
+    margin-top: 50px;
+   margin-left: 60px;
+  margin-right: 60px;
+
+}
+
+td{
+    border: 1px solid #999;
+    padding: 80px;
+    position: relative;
+   
+}
+
+
+
+td:hover::before { 
+    background-color: #eee;
+    content: '';  
+    height: 100%;
+    left: -5000px;
+    position: absolute;  
+    top: 0;
+    width: 10000px;   
+    z-index: -2;        
+}
+
+td:hover::after { 
+    background-color: #ffa;
+    content: '';  
+    height: 10000px;    
+    left: 0;
+    position: absolute;  
+    top: -5000px;
+    width: 100%;
+    z-index: -1;        
+}
